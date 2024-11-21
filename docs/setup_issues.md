@@ -13,7 +13,7 @@ Der Bootloader des Jetson Nano war beschädigt und musste neu geflasht werden. D
 - **Lösung:** Wechsel zu einem älteren Laptop, bei dem Secure Boot keine Rolle spielte.
 
 ### Alternativlösung:
-Die Einschränkung auf Ubuntu 18.04 kann umgangen werden, indem die Datei `/etc/os-release` so angepasst wird, dass sie den Werten von Ubuntu 18.04 entspricht. Dies ermöglicht die Verwendung des SDK Managers unter Ubuntu 20.04 oder 22.04. Siehe:  
+Die Einschränkung auf Ubuntu 18.04 kann umgangen werden, indem die Datei `/etc/os-release` so angepasst wird, dass sie den Werten von Ubuntu 18.04 entspricht. Dies ermöglicht die Verwendung des SDK Managers unter Ubuntu 20.04 oder 22.04 oder darauf basierenden Distributionen wie **Linux Mint**. Siehe:  
 👉 [GitHub: xronos-inc/jetson-nano-ubuntu-22.04](https://github.com/xronos-inc/jetson-nano-ubuntu-22.04)
 
 ---
