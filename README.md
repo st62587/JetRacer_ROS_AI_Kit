@@ -12,7 +12,8 @@ Das Projekt umfasst folgende Bereiche:
 
 ## 📂 Repository-Struktur
 
-Struktur verlatet muss angepasst werden
+Struktur verlatet muss angepasst werden.
+Der Ordner docs sollte nach dem image auf den jeweiligen sd-karten unterteilt werden.
 
 ```plaintext
 JetRacer_ROS_AI_Platform/
