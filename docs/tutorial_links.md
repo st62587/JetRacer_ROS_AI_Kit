@@ -27,4 +27,10 @@ Hier findest du eine Übersicht der offiziellen Tutorials, die für den Aufbau u
    Einrichtung und Kalibrierung der Kamera auf dem JetRacer.
 
 9. [Enable the Lidar Node](https://www.waveshare.com/wiki/JetRacer_ROS_AI_Kit_Tutorial_%E2%85%A8:_Enable_the_Lidar_Node)  
+
    Aktivierung und Konfiguration des Lidar-Sensors.
+10. [Jetson Nano Ubuntu 20 Image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image)  
+    Anleitung zur Verwendung des Ubuntu 20 Images auf dem Jetson Nano.
+
+11. [Jetson Nano Ubuntu 22.04](https://github.com/xronos-inc/jetson-nano-ubuntu-22.04)  
+    Verwendung von Ubuntu 22.04 auf dem Jetson Nano.
