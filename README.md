@@ -12,6 +12,8 @@ Das Projekt umfasst folgende Bereiche:
 
 ## 📂 Repository-Struktur
 
+Struktur verlatet muss angepasst werden
+
 ```plaintext
 JetRacer_ROS_AI_Platform/
 ├── README.md                # Übersicht und Projektbeschreibung
