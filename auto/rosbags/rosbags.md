@@ -187,10 +187,13 @@ topics:      /cmd_vel                                                      2763 
   -a: Nimmt alle Topics auf.
   -x: Gibt eine Regex (regulären Ausdruck) an, um Topics auszuschließen.
   Der Regex /csi_cam_0/image_raw(/.*)?|/csi_cam_0/image_raw/compressedDepth(/.*)?|/csi_cam_0/image_raw/theora(/.*)? schließt alle unkomprimierten Kamera-Topics sowie Depth- und Theora-Topics aus.
+
   ```
   rosbag record -a -x "/csi_cam_0/image_raw(/.*)?|/csi_cam_0/image_raw/compressedDepth(/.*)?|/csi_cam_0/image_raw/theora(/.*)?"
   ```
-    <summary>Details zu ROS Bag 3</summary>
+
+    <summary>Details zu ROS Bag 4</summary>
+
 ```
 path:        2024-11-29-03-17-13.bag
 version:     2.0
