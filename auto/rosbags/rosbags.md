@@ -182,7 +182,7 @@ topics:      /cmd_vel                                                      2763 
   </details>
 
 4. [ROS Bag 4](https://drive.google.com/file/d/1ZksDbdTN5JtlgepekYXTh3bPzaSEra0N/view?usp=drive_link)
-  <details>
+
 
   -a: Nimmt alle Topics auf.
   -x: Gibt eine Regex (regulären Ausdruck) an, um Topics auszuschließen.
@@ -192,9 +192,11 @@ topics:      /cmd_vel                                                      2763 
   rosbag record -a -x "/csi_cam_0/image_raw(/.*)?|/csi_cam_0/image_raw/compressedDepth(/.*)?|/csi_cam_0/image_raw/theora(/.*)?"
   ```
 
+
+  <details>
     <summary>Details zu ROS Bag 4</summary>
 
-```
+  ```
 path:        2024-11-29-03-17-13.bag
 version:     2.0
 duration:    2:08s (128s)
@@ -295,4 +297,4 @@ topics:      /amcl/parameter_descriptions                                       
              /scan                                                                940 msgs    : sensor_msgs/LaserScan                  
              /tf                                                                16751 msgs    : tf2_msgs/TFMessage                      (4 connections)
             ``` 
-  </details>
+</details>
