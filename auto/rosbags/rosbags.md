@@ -186,6 +186,7 @@ topics:      /cmd_vel                                                      2763 
 
   -a: Nimmt alle Topics auf.
   -x: Gibt eine Regex (regulären Ausdruck) an, um Topics auszuschließen.
+
   Der Regex /csi_cam_0/image_raw(/.*)?|/csi_cam_0/image_raw/compressedDepth(/.*)?|/csi_cam_0/image_raw/theora(/.*)? schließt alle unkomprimierten Kamera-Topics sowie Depth- und Theora-Topics aus.
 
   ```
@@ -296,5 +297,5 @@ topics:      /amcl/parameter_descriptions                                       
              /rviz/compressed/parameter_updates                                     1 msg     : dynamic_reconfigure/Config             
              /scan                                                                940 msgs    : sensor_msgs/LaserScan                  
              /tf                                                                16751 msgs    : tf2_msgs/TFMessage                      (4 connections)
-            ``` 
+    ``` 
 </details>
