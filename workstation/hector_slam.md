@@ -80,7 +80,7 @@ roslaunch hector_slam_launch tutorial.launch
 Manuelle Hinzufügung von Displays:
 * **LaserScan**: Zeigt die LIDAR-Daten.
 
-**Beobachtungen und Ergebnisse**
+## **Beobachtungen und Ergebnisse**
 
 **Karte**
 Hector SLAM sollte die Umgebungskarte in Echtzeit erstellen.
