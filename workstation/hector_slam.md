@@ -11,7 +11,6 @@ Ergebnisse beobachtet werden sollen.
 3. [Abspielen der ROS-Bag-Datei](#abspielen-der-ros-bag-datei)
 4. [Starten von Hector SLAM](#starten-von-hector-slam)
 5. [Beobachtungen und Ergebnisse](#beobachtungen-und-ergebnisse)
-6. [Fehlerbehebung](#fehlerbehebung)
 
 ## **Voraussetzungen**
 
