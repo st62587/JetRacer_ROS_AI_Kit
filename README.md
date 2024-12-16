@@ -10,6 +10,10 @@ Das Projekt umfasst folgende Bereiche:
 - **Workstation**: Entwicklung von Tools und Schnittstellen zur Steuerung und Datenvisualisierung.
 - **Datenverarbeitung**: Aufzeichnung und Analyse von Sensordaten sowie Integration von KI-Modellen.
 
+## 📋 [TODO-Liste](docs/todo.md):
+
+Übersicht über ausstehende Aufgaben, Verantwortlichkeiten und Teilaufgaben
+
 ## 📂 Repository-Struktur
 
 Struktur verlatet muss angepasst werden.
