@@ -9,7 +9,7 @@
 
 - [ ] **Aufgabe 2: Script für individuelle anpassbare Szenarien**
   - **Hauptverantwortlich:** Colin Kastens
-  - **Zuarbeit:** Bitte ergänzen
+  - **Zuarbeit:** Tue Cung
   - **Beschreibung:** Erstellung eines Scripts, mit dem individuelle Launch-Dateien für die Entwicklung und Wiederholbarkeit von Szenarien mit minimalem Konfigurationsaufwand generiert werden können. Es soll sowohl auf dem Jetracer als auch auf einer Workstation funktionieren.
 
 - [ ] **Aufgabe 3: Erstellen neuer ROSBAGs**
@@ -42,7 +42,7 @@
 
 ### Aufgabe 2: Script für individuelle anpassbare Szenarien
 - **Hauptverantwortlich:** Colin Kastens
-- **Zuarbeit:** Bitte ergänzen
+- **Zuarbeit:** Tue Cung
 - **Beschreibung:** Erstellung eines Scripts, mit dem individuelle Launch-Dateien für die Entwicklung und Wiederholbarkeit von Szenarien erstellt werden können. Das Script soll sowohl auf dem Jetracer als auch auf einer Workstation funktionieren.
 - **Teilaufgaben:**
   - [ ] Alle möglichen Topics/Nodes identifizieren
