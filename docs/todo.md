@@ -50,6 +50,8 @@
   - [ ] Script erstellen, das neue Launch-Dateien erzeugen kann, optimiert auf mögliche Szenarien
   - [ ] Testen
 
+---
+
 ### Aufgabe 3: Erstellen neuer ROSBAGs
 - **Hauptverantwortlich:** Colin Kastens
 - **Zuarbeit:** Bitte ergänzen
