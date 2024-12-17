@@ -17,7 +17,17 @@
   - **Zuarbeit:** Bitte ergänzen
   - **Beschreibung:** Erstellung neuer ROSBAGs nach Vorgabe bzw. Anforderungen
 
+- [ ] **Aufgabe 4: Fortsetzung der Evaluation der SLAM-Ansätze
+- **Hauptverantwortlich:** Vanelle Happi
+- **Beschreibung:** Fortsetzung der Evaluation der SLAM-Ansätze mit einer neu aufgenommenen ROS-Bag-Datei. Dabei soll eine festgelegte Strecke abgefahren werden, um zu überprüfen, ob eine korrekte Karte erstellt wird.
 
+- [ ] **Aufgabe 5: Untersuchung der Ursachen für Verzögerungen bei der Rosbag1-Aufnahme**
+- **Hauptverantwortlich:** Christian Temfac
+- **Beschreibung:** Während des letzten Integrationstests des Autos und der Workstation mit der Bridge wurde eine Rosbag-Aufnahme mit ROS Noetic über die Bridge gestartet. Dies führte zu einer Steuerungsverzögerung des Autos. Es soll untersucht werden, um die Ursachen der Verzögerung festzustellen.
+
+- [ ] **Aufgabe 6: Untersuchung der Übermittlung von Befehlen an den Motor bei der Implementierung der Szenarien**
+- **Hauptverantworlich:**
+- **Beschreibung:** Recherche über den Nachrichtentyp, der in den entsprechenden Szenarien an das Auto bzw. die Motoren geschickt wird. Dabei sollen das Nachrichtenformat und das Verhalten der Motoren beim Empfang der Nachricht untersucht werden. 
 
 ---
 
@@ -61,3 +71,33 @@
   - [ ] Aufbauen der Strecke
   - [ ] Aufnahme ROSBAG
   - [ ] ROSBAG Hochladen
+
+---
+
+### Aufgabe 4: Fortsetzung der Evaluation der SLAM-Ansätze
+- **Hauptverantwortlich:** Vanelle Happi
+- **Teilaufgaben:**
+  - [ ] Festgelegte Strecke abgefahren
+  - [ ] Überprüfung der korrekten Kartenerstellung
+
+---
+
+### Aufgabe 5: Untersuchung der Ursachen für Verzögerungen bei der Rosbag1-Aufnahme
+- **Hauptverantwortlich:** Christian Temfac
+- **Teilaufgaben:**
+  - [ ] Recherche und Annahme über die möglichen Verzögerungsursachen
+  - [ ] Neue Integrationstests durchführen
+  - [ ] Überprüfung der Annahmen
+  - [ ] Fazit ziehen
+
+---
+
+### Aufgabe 6: Untersuchung der Übermittlung von Befehlen an den Motor bei der Implementierung der Szenarien
+- **Hauptverantwortlich:** Christian Temfac
+- **Zuarbeit:** Bitte ergänzen
+- **Teilaufgaben:**
+  - [x] Szenarien definieren
+  - [ ] Nachrichtentyp und Topic für Motoren festlegen
+  - [ ] Virtuelle Simulation der Nachrichtenübertragung
+  - [ ] Virtuelle Simulation des Motorverhaltens beim Empfang der Nachricht
+  - [ ] Integration der Ergebnisse mit der KI 
