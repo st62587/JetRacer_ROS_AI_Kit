@@ -53,7 +53,7 @@ cd path/to/your/rosbag
 ```
 Starten Sie die Wiedergabe der Datei:
 ```
-rosbag play \<rosbag-file\>.bag \--clock
+rosbag play <rosbag-file>.bag --clock
 ```
 **Hinweis:** Die Option \--clock simuliert die Zeit der
 aufgezeichneten Daten, was für SLAM-Prozesse wichtig ist.
@@ -68,6 +68,7 @@ Starten Sie den Hector SLAM-Knoten mit der Launch-Datei:
 ```
 roslaunch hector_slam_launch tutorial.launch
 ```
+**Hinweis**: Prüfen Sie in der Launch-Datei, ob die TF-Frames für Map, Odometrie, LaserScan usw korrekt definiert sind. Fehlerhafte oder fehlende Frames können zu Problemen bei der Kartierung und Lokalisierung führen.
 
 **RViz** wird automatisch geöffnet. Prüfen Sie die folgenden Standard-Displays:
 
