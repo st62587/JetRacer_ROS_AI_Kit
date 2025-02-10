@@ -1,8 +1,7 @@
 # **Karto SLAM mit ROS-Bag-Daten**
 
 Diese Anleitung beschreibt, wie Sie eine ROS-Bag-Datei abspielen, den
-Karto SLAM konfigurieren und starten. Zudem wird erklärt, welche
-Ergebnisse beobachtet werden sollen.
+Karto SLAM konfigurieren und starten.
 
 ## **Inhaltsverzeichnis**
 
@@ -68,7 +67,18 @@ Starten Sie den Karto SLAM-Knoten mit der Launch-Datei:
 roslaunch slam_karto karto_slam.launch
 ```
 **Hinweis**: Prüfen Sie in der Launch-Datei, ob die TF-Frames für Map, Odometrie, LaserScan usw korrekt definiert sind. Fehlerhafte oder fehlende Frames können zu Problemen bei der Kartierung und Lokalisierung führen.
-
+Die Launch-Datei soll aussehen:
+```
+<?xml version="1.0"?>
+<launch>
+  <node pkg="slam_karto" type="slam_karto" name="slam_karto" output="screen">
+  	<param name="base_frame" value="base_footprint"/>
+    <param name="odom_frame" value="odom"/>
+    <param name="map_update_interval" value="25"/>
+    <param name="resolution" value="0.025"/>
+  </node>
+</launch>
+```
 **RViz** soll in einem anderen Terminal geöffnet werden.
 ```
 rviz
