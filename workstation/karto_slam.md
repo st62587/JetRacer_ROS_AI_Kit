@@ -9,17 +9,17 @@ Ergebnisse beobachtet werden sollen.
 1. [Voraussetzungen](#voraussetzungen)
 2. [Installation und Einrichtung](#installation-und-einrichtung)
 3. [Abspielen der ROS-Bag-Datei](#abspielen-der-ros-bag-datei)
-4. [Starten von Hector SLAM](#starten-von-hector-slam)
+4. [Starten von Karto SLAM](#starten-von-karto-slam)
 
 ## **Voraussetzungen**
 
 - **ROS**: Eine vollständige ROS1-Installation (z. B. ROS Noetic oder Melodic).
-- **Hector SLAM**: Vorinstalliertes Hector SLAM-Paket.
+- **Karto SLAM**: Vorinstalliertes Karto SLAM-Paket.
 - **ROS-Bag-Datei**: Eine Datei mit aufgezeichneten Sensordaten (z. B. `scan`-Topics).
 
 ## **Installation und Einrichtung**
 
-**Hector SLAM installieren**
+**Karto SLAM installieren**
 
 Falls Karto SLAM noch nicht installiert ist, führen Sie folgende
 Schritte aus:
@@ -57,7 +57,7 @@ rosbag play <rosbag-file>.bag --clock
 **Hinweis:** Die Option \--clock simuliert die Zeit der
 aufgezeichneten Daten, was für SLAM-Prozesse wichtig ist.
 
-## **Starten von Hector SLAM**
+## **Starten von Karto SLAM**
 
 Starten Sie **ROS Core**:
 ```
